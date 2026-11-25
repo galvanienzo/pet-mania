@@ -1,0 +1,180 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Mania</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f7f4ec;
+            color: #304538;
+        }
+
+        header {
+            background: #285943;
+            color: white;
+            text-align: center;
+            padding: 35px 20px;
+        }
+
+        header h1 {
+            font-size: 38px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            color: #f2b66d;
+            font-size: 17px;
+        }
+
+        main {
+            max-width: 1050px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        .apresentacao {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .apresentacao h2 {
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+
+        .apresentacao p {
+            font-size: 17px;
+            line-height: 1.7;
+        }
+
+        .produtos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 22px;
+        }
+
+        .produto {
+            background: white;
+            width: 290px;
+            padding: 28px;
+            border-radius: 14px;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,.08);
+        }
+
+        .produto .emoji {
+            font-size: 42px;
+            margin-bottom: 12px;
+        }
+
+        .produto h3 {
+            color: #285943;
+            margin-bottom: 12px;
+        }
+
+        .produto p {
+            line-height: 1.6;
+        }
+
+        .servicos {
+            background: #f2b66d;
+            color: #304538;
+            padding: 28px;
+            margin-top: 35px;
+            border-radius: 14px;
+            text-align: center;
+        }
+
+        .servicos h2 {
+            margin-bottom: 12px;
+        }
+
+        footer {
+            background: #285943;
+            color: white;
+            text-align: center;
+            padding: 22px;
+            margin-top: 40px;
+            line-height: 1.8;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🐾 Pet Mania</h1>
+        <p>Tudo para seu melhor amigo!</p>
+    </header>
+
+    <main>
+
+        <section class="apresentacao">
+            <h2>Bem-vindo ao Pet Mania!</h2>
+
+            <p>
+                O Pet Mania é uma loja fictícia criada para oferecer
+                carinho, cuidado e produtos especiais para os animais.
+                Nosso objetivo é proporcionar mais conforto e alegria
+                para cães, gatos e seus tutores.
+            </p>
+        </section>
+
+        <section class="produtos">
+
+            <div class="produto">
+                <div class="emoji">🐶</div>
+                <h3>Produtos para Cães</h3>
+                <p>
+                    Rações, brinquedos, coleiras e acessórios
+                    para deixar seu melhor amigo feliz.
+                </p>
+            </div>
+
+            <div class="produto">
+                <div class="emoji">🐱</div>
+                <h3>Produtos para Gatos</h3>
+                <p>
+                    Arranhadores, caminhas, brinquedos e
+                    produtos especiais para felinos.
+                </p>
+            </div>
+
+            <div class="produto">
+                <div class="emoji">🛁</div>
+                <h3>Banho e Tosa</h3>
+                <p>
+                    Cuidados especiais para manter seu pet
+                    limpo, saudável e bem cuidado.
+                </p>
+            </div>
+
+        </section>
+
+        <section class="servicos">
+            <h2>Amor e cuidado em cada detalhe!</h2>
+            <p>
+                No Pet Mania, seu melhor amigo recebe
+                atenção, carinho e cuidado especial.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Pipeline Docker</p>
+    </footer>
+
+</body>
+</html>
